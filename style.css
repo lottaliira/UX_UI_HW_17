@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+p {
+    font-size: 18px;
+    color: black;
+    text-decoration: none; 
+    line-height: 30px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+h2 {
+    line-height: 70px;
+}
+
+header * {
+    align-self: flex-start;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.image-wrapper {
+    padding: 30px;
+    background-color: #FFEDD3;
+    border: 1px solid black;
+    margin-top: -40px;
+}
+
+.lotta {
+    width: 350px;
+}
+
+.logo {
+    width: 100px;
+    position: absolute; left: 0px;
+    margin: -200;
+}
+
+.design {
+    float: right;
+    margin-top: -35px;
+    background-color: transparent;
+}
+
+.design * {
+    background-color: transparent;
+    padding-right: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px 20px 0px;
+    background-color: #FFEDD3;
+}
+
+.links a {
+    background-color: #FFEDD3;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    padding: 70px;
+    margin: -400px auto 30px auto;
+    background-color: #FFF2DF;
+}
+
+.box-text-wrapper {
+    background-color: #FFF2DF;
+    width: 600px;
+}
+
+.box-text-wrapper * {
+    background-color: #FFF2DF;
+    line-height: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.design {
+    font-size: 30px;
+}
+
+
+footer {
+    padding: 40px;
+}
