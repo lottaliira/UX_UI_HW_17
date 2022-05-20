@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 li, a {
@@ -123,7 +122,64 @@ header * {
     font-size: 30px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color:#FFF2DF;
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: cornflowerblue;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.picture-1 {
+    background-image: url(../images/Itinerr\ pic.jpeg);
+}
+
+.picture-2 {
+    background-image:url(../images/Canada.jpeg);
+}
+
+.picture-3 {
+    background-image: url(../images/Shoppex.jpeg);
+}
+
+.card p {
+    padding: 15px;
+}
+
+.card a {
+    background-color:white;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.portfolio-description {
+    height: 100px
+}
+
+.portfolio-title {
+    font-size: 25px;
+}
 
 footer {
     padding: 40px;
+}
+
+@media screen {
+    
 }
