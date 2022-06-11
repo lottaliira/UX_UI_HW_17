@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 li, a {
@@ -102,6 +101,7 @@ header * {
     height: 400px;
     padding: 70px;
     margin: -400px auto 30px auto;
+    margin-bottom: 250px;
     background-color: #FFF2DF;
 }
 
@@ -123,7 +123,66 @@ header * {
     font-size: 30px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.card {
+    background-color:#FFF2DF;
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: cornflowerblue;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.picture-1 {
+    background-image: url(../images/Itinerr\ pic.jpeg);
+}
+
+.picture-2 {
+    background-image:url(../images/Canada.jpeg);
+}
+
+.picture-3 {
+    background-image: url(../images/Shoppex.jpeg);
+}
+
+.card p {
+    padding: 30px;
+}
+
+.case-study{
+    background-color:white;
+    color: black;
+    padding: 15px 40px;
+    display: block;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    border: 0px solid transparent;
+}
+
+.portfolio-description {
+    height: 120px
+}
+
+.portfolio-title {
+    font-size: 25px;
+}
 
 footer {
     padding: 40px;
+}
+
+@media screen {
+    
 }

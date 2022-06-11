@@ -49,6 +49,26 @@
                 </p>
             </div>
         </div>
+        <section class="container">
+            <div class="card">
+                <div class="card-image picture-1"></div>
+                <p class="portfolio-title">Itinerr - Plan & Travel</p>
+                <p class="portfolio-description">A Travel app that makes planning the trips and sharing itineraries with your friends easy.</p>
+                <button class="case-study">View Case Study</button>
+            </div>
+            <div class="card">
+                <div class="card-image picture-2"></div>
+                <p class="portfolio-title">Canada Border Services</p>
+                <p class="portfolio-description">Redesign of CBS website.</p>
+                <button class="case-study">View Case Study</button>
+            </div>  
+            <div class="card">
+                <div class="card-image picture-3"></div>
+                <p class="portfolio-title">Shoppex - Grocery App</p>
+                <p class="portfolio-description">Shoppex helps you to locate items in different grocery stores. </p>
+                <button class="case-study">View Case Study</button>
+            </div> 
+        </section>
         <footer>
             <h2>Let's work together!</h2>
             <p>lottaliira@gmail.com</p>
@@ -56,5 +76,29 @@
             <p><a href="https://www.linkedin.com/in/lotta-liira-633256103/">LinkedIn</a></p>
         </footer>
     </body>
+    <script> src="js/inex.js"</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on({
+      "mouseenter": function(){
+        $(this).css("background-color", "#DDDFE4");
+      },
+      "mouseleave": function() {
+        $(this).css("background-color", "transparent");
+      }
+  });
+
+  $(".case-study").on({
+      "mouseenter": function(){
+        $(this).css("background-color", "#DDDFE4");
+      },
+      "mouseleave": function() {
+        $(this).css("background-color", "white");
+      }
+  });
+
+});
+</script>
 </html>
 
